@@ -19,7 +19,7 @@ export default function Navbar() {
     return (
         <>
             <div>
-                <nav className="w-full h-24 shadow-2xl bg-white">
+                <nav className="w-full h-24 shadow-2xl">
 
                     <div className="flex justify-between items-center h-full w-full p-8">
                         <Link href="/">
@@ -44,11 +44,11 @@ export default function Navbar() {
                                         experience
                                     </li>
                                 </Link>
-                                <Link href="/about">
+                                {/* <Link href="/about">
                                     <li className="ml-10 uppercase hover:border-b text-xl">
                                         skills
                                     </li>
-                                </Link>
+                                </Link> */}
 
                                 <Link href="/about">
                                     <li className="ml-10 uppercase hover:border-b group-hover:transition-all text-xl">
