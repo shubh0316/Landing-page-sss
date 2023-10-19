@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Navbar from "../components/Navbar"
 import Hero from '@component/components/Hero'
 import About from "./about/about"
+import Experience from './experience/Experience'
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <Navbar /> 
       <Hero />
       <About /> 
+      <Experience />
      </div>
     </>
   )
