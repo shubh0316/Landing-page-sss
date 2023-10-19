@@ -4,7 +4,6 @@ import Hero from '@component/components/Hero'
 import About from "./about/about"
 import Experience from './experience/Experience'
 
-
 export default function Home() {
   return (
     <>
