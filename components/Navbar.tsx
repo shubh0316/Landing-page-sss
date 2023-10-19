@@ -44,11 +44,11 @@ export default function Navbar() {
                                         experience
                                     </li>
                                 </Link>
-                                {/* <Link href="/about">
+                                 <Link href="/about">
                                     <li className="ml-10 uppercase hover:border-b text-xl">
                                         skills
                                     </li>
-                                </Link> */}
+                                </Link> 
 
                                 <Link href="/about">
                                     <li className="ml-10 uppercase hover:border-b group-hover:transition-all text-xl">

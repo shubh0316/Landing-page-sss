@@ -23,6 +23,6 @@
       "@component/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/AnimatedText.js", "app/about/skills.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/AnimatedText.js", "app/skills/skills.tsx"],
   "exclude": ["node_modules"]
 }

@@ -1,6 +1,6 @@
 import AnimatedText from "@component/components/AnimatedText"
 import Container from "@component/components/container";
-import Skills from "./skills";
+import Skills from "../skills/skills";
 
 const About = () => {
     return (
