@@ -6,7 +6,6 @@ import Lilcon from "@component/components/Lilcon";
 
 
 const Details = ({ position, company, companyLink, time, address, work,  }: { position: any, company: any, companyLink: any, time: any, address: any, work: any }) => {
-
     const ref = useRef(null);
 
     return (

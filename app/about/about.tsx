@@ -12,7 +12,7 @@ const About = () => {
          BIOGRAPHY
          </div>
          <div className="text-lg text-center py-4">
-         I am a passionate computer science graduate with a B.Tech degree, specializing in web development and software development from the ground up. With a strong foundation in various programming languages and frameworks, I bring a wealth of experience to the table. I excel in crafting stunning landing pages infused with captivating animations, creating immersive user experiences that leave a lasting impression. My versatility extends across the tech stack, allowing me to adapt seamlessly to any project's requirements. I am committed to delivering innovative and high-quality solutions, and I look forward to contributing my skills to your next web or software development endeavor.
+         I am a passionate computer science graduate with a B.Tech degree, specializing in web development and software development from the ground up. With a strong foundation in various programming languages and frameworks, I bring a wealth of experience to the table. I excel in crafting stunning landing pages infused with captivating animations, creating immersive user experiences that leave a lasting impression. My versatility extends across the tech stack, allowing me to adapt seamlessly to any project&apos;s requirements. I am committed to delivering innovative and high-quality solutions, and I look forward to contributing my skills to your next web or software development endeavor.
          </div>
        </main>
        <Skills />
