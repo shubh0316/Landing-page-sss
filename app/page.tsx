@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar"
 import Hero from '@component/components/Hero'
 import About from "./about/about"
 import Experience from './experience/Experience'
+import Footer from '@component/components/Footer'
+import Projects from './projects/Projects'
 
 export default function Home() {
   return (
@@ -12,6 +14,9 @@ export default function Home() {
       <Hero />
       <About /> 
       <Experience />
+      <Projects />
+      <Footer />
+
      </div>
     </>
   )

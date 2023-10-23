@@ -13,7 +13,7 @@ const Hero = () => {
 
     return (
         <>       <Container>         
-                     <div className="w-full h-full inline-block z-0 p-20">
+                     <div className="w-full h-full inline-block z-0 p-20 mt-10">
                     <div className="flex items-center justify-between w-full h-full">
                         <div className="w-1/2">
                             <Image src={Developer} alt="portfolio" className='w-full h-auto' />
