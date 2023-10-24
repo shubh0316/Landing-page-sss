@@ -22,7 +22,7 @@ const Details = ({ position, company, companyLink, time, address, work,  }: { po
                 <span className="capitalize font-medium text-dark/75">
                     {time} | {address}
                 </span>
-                <p className="font-mediium w-full">
+                <p className="font-medium w-full">
                   {work}
                 </p>
             </motion.div>
@@ -41,7 +41,7 @@ const Experience = () => {
     return (
         <Container>
             <div className="my-64">
-                <h2 className="font-semibold text-8xl  w-full text-center">Experience</h2>
+                <h2 className="font-semibold text-4xl md:text-8xl  w-full text-center">Experience</h2>
                 <div ref={ref} className="w-[75%] mx-auto relative">
                     <motion.div style={{ scaleY: scrollYProgress }} className="absolute left-8 right-40 top-40 w-[4px] h-full bg-dark origin-top" />
                     <ul className="w-full flex flex-col items-start justify-between ml-4">
@@ -71,11 +71,11 @@ const Experience = () => {
                             user-friendly web application and contribute to the overall success of the project."
                         />
                     </ul>
-                    <ul className="w-full flex flex-col items-start justify-between ml-4">
+                    <ul className="w-full flex flex-col items-start justify-between ml-10 md:ml-4 ">
                         <Details
                             position="Software Developer Intern" company="Watchguard Technologies"
                             companyLink="www.Watchguard.com"
-                            time="Feburary 2023 - May 2023" address="In-Office || Noida"
+                            time="Feburary 2023 - May 2023" address="In-Office"
                         
                             work="Employee Management System: Worked on a console-based Employee Management system, taking charge of
                             designing, implementing, and testing various functionalities.

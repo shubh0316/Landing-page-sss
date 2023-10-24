@@ -6,8 +6,8 @@ const About = () => {
     return (
      
       <Container>  
-       <main className="flex flex-col items-center justify-center self-center p-2.5 mt-64">
-         <AnimatedText text={"Passion Fuels Purpose!"} className="text-8xl text-center " />
+       <main className="flex flex-col items-center justify-center self-center p-2.5 mt-64 overflow-x-hidden">
+         <AnimatedText text={"Passion Fuels Purpose!"} className="text-4xl md:text-8xl text-center " />
          <div className="uppercase text-lg font-semibold">
           biography
          </div>
